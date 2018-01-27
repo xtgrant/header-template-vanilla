@@ -215,18 +215,26 @@ body{
     margin-left:-20px;
     cursor:pointer;
 }
-.user-container .user-nav-list ul li:nth-child(1){}
-.user-container .user-nav-list ul li:nth-child(2){
-    -webkit-transition-delay: .05s;
-    -moz-transition-delay: .05s;
-    -o-transition-delay: .05s;
-    transition-delay: .05s
-}
-.user-container .user-nav-list ul li:nth-child(3){
+.user-container .user-nav-list ul li:nth-child(1){
+  /* initial 100ms*/
     -webkit-transition-delay: .1s;
     -moz-transition-delay: .1s;
     -o-transition-delay: .1s;
-    transition-delay: .1s;
+    transition-delay: .1s
+}
+.user-container .user-nav-list ul li:nth-child(2){
+  /* initial stagger of 25ms + 100ms*/
+    -webkit-transition-delay: .125s;
+    -moz-transition-delay: .125s;
+    -o-transition-delay: .125s;
+    transition-delay: .125s
+}
+.user-container .user-nav-list ul li:nth-child(3){
+  /* initial stagger of 25ms + 125ms*/
+    -webkit-transition-delay: .15s;
+    -moz-transition-delay: .15s;
+    -o-transition-delay: .15s;
+    transition-delay: .15s;
 }
 .user-container.expand{}
 .user-container.expand .user-action{
