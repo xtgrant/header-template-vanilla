@@ -61,12 +61,13 @@ body{
     overflow: hidden;
 }
 .nav-container .nav-list{
-    opacity:.75;
+
     width: 250px;
     white-space: nowrap;
 }
 .nav-container .nav-list ul{}
 .nav-container .nav-list .nav-link{
+    opacity:.75;
     -webkit-transition: all .25s ease;
     -moz-transition: all .25s ease;
     -o-transition: all .25s ease;
@@ -103,6 +104,7 @@ body{
 }
 .nav-container .nav-list .nav-link:hover{
     background-position:left bottom;
+    opacity: 1;
 }
 .nav-container .nav-list .nav-link.active{
     border-left: 4px solid rgba(18, 114, 178, 1);
